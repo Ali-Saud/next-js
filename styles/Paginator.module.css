@@ -1,0 +1,41 @@
+.paginator {
+width: 100%;
+padding: 50px 0px 0px 0px;
+display: flex;
+justify-content: center;
+border-width: 1px;
+}
+
+.paginator div {
+margin: 25px;
+}
+
+.paginator button {
+margin: 15px;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+border-style: none;
+text-align: center;
+color: #fff;
+background-color: #044fa3;
+}
+
+.paginator span{
+    text-align: center;
+    color: #fff;
+}
+
+
+.paginator button:hover {
+background-color: #1a1a1b;
+}
+
+.paginator .active {
+cursor: pointer;
+}
+
+.paginator .disabled {
+cursor: not-allowed;
+color: rgba(179, 179, 179, 0.863);
+}
