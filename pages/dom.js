@@ -5,7 +5,7 @@ const DOM = ({ developer }) => {
 
     return (
         <div className={styles.main}>
-            <h1>Developer of the month</h1>
+            <h1>I build websites!</h1>
             <div className={styles.developerOfTheMonth}>
                 <h3>{developer.name}</h3>
                 <h6>{developer.position}</h6>
