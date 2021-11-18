@@ -20,3 +20,17 @@ a {
   height: 100vh;
   flex-direction: column;
 }
+
+.main-title h1, h2 {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.main-title {
+  margin: 10px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+
+}
